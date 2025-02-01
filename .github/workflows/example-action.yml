@@ -1,0 +1,15 @@
+name: Example GitHub Action
+
+on:
+  push:
+    branches:
+      - main  # Trigger the action on a push to the main branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Specifies the environment to run the job on
+
+    steps:
+      # This is the step that will have your email address
+      - name: 23f2002286@ds.study.iitm.ac.in  # Your email address as the step name
+        run: echo "Hello, world!"  # This will run the command to echo "Hello, world!"
